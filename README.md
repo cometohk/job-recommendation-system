@@ -44,6 +44,6 @@ We evaluated each model's performance using various classification metrics, i.e.
 
 The streamlit app utilises the pre-trained model, and allows users to input information on their profile, and generate a job-role recommendation for the user. 
 
-Please feel free to reach out if you would like to find out more about this project, or if you would like a copy of the project report. Thank you for visiting.
+Thank you for visiting.
 
 <h3>Note:</h3> Please refer to the requirement.txt file in the streamlit folder for the required packages and versions for our streamlit app. 
