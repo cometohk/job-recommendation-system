@@ -40,7 +40,7 @@ Our approach for model building and selection comprised of 3 main steps:
 results of the various models after cross-validation with the stratified k-folds (5 folds) technique; and
 3) Tuning the selected model’s parameters to achieve better performance.
 
-We evaluated each model's performance using various classification metrics, i.e. accuracy, precision, recall, f1, and area under receiver operating characteristic multi-class one-vs-all curve scores. As the models were multi-class models, we had macro-averaged the scores across the 5 classes for each fold, and then averaged the scores across the 5-folds. We selected the best performing model, which was a simple Logistic Regression model, which achieved accuracy of 0.57, or approximately almost 3 times as accurate as a random predictor. 
+We evaluated each model's performance using various classification metrics, i.e. accuracy, precision, recall, f1, and area under receiver operating characteristic multi-class one-vs-all curve scores. As the models were multi-class models, we had macro-averaged the scores across the 5 classes for each fold, and then averaged the scores across the 5-folds. We selected the best performing model, which was a simple Logistic Regression model, which achieved accuracy of 0.57, or approximately almost 3 times as accurate as a random predictor. Please refer to the Jupyter Notebook "Code for model generation.ipynb" for the code base for model building.
 
 The streamlit app utilises the pre-trained model, and allows users to input information on their profile, and generate a job-role recommendation for the user. 
 
