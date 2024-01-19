@@ -1,4 +1,4 @@
-<h1>Job Recommendation System using Kaggle Data Science and Machine Learning survey Dataset</h1>
+![Screenshot 2024-01-19 at 10 32 24 AM](https://github.com/hkkiat/job-recommendation-system/assets/136663463/bb6ff675-dff4-4141-8969-e551573acbc6)<h1>Job Recommendation System using Kaggle Data Science and Machine Learning survey Dataset</h1>
 
 <h2>Project Information</h2>
 
@@ -18,7 +18,7 @@ This was the highest scoring project for the class.
 </ul>
 Project report: IT5006 Project Report.pdf
 
-<h2>Objective</h2>
+<h2>Objective of job recommendation app</h2>
 
 Analyse profiles of the top 5 most common job roles and provide a profile-based recommendation of suitable job roles in the Data Science and Machine Learning sector.
 
@@ -43,6 +43,15 @@ results of the various models after cross-validation with the stratified k-folds
 We evaluated each model's performance using various classification metrics, i.e. accuracy, precision, recall, f1, and area under receiver operating characteristic multi-class one-vs-all curve scores. As the models were multi-class models, we had macro-averaged the scores across the 5 classes for each fold, and then averaged the scores across the 5-folds. We selected the best performing model, which was a simple Logistic Regression model, which achieved accuracy of 0.57, or approximately almost 3 times as accurate as a random predictor. Please refer to the Jupyter Notebook "Code for model generation.ipynb" for the code base for model building.
 
 The streamlit app utilises the pre-trained model, and allows users to input information on their profile, and generate a job-role recommendation for the user. 
+
+<h2>Sample screenshots of streamlit app for EDA and Job recommendation model</h2>
+<h3>EDA</h3>
+<img src="https://github.com/hkkiat/job-recommendation-system/assets/136663463/8621a3cd-cab6-4634-b25a-2f4754d022b1">
+<img src="https://github.com/hkkiat/job-recommendation-system/assets/136663463/97a951a2-7528-4e51-8213-5068a834913b">
+
+<h3>Job Recommendation</h3>
+<img src="https://github.com/hkkiat/job-recommendation-system/assets/136663463/c1eff293-52f7-43f5-acc9-456dcf059927")>
+<img src ="https://github.com/hkkiat/job-recommendation-system/assets/136663463/2ae2195e-b17c-4ec0-ad74-ba2d5ff1dddb")>
 
 Thank you for visiting.
 
