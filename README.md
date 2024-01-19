@@ -1,8 +1,8 @@
-![Screenshot 2024-01-19 at 10 32 24 AM](https://github.com/hkkiat/job-recommendation-system/assets/136663463/bb6ff675-dff4-4141-8969-e551573acbc6)<h1>Job Recommendation System using Kaggle Data Science and Machine Learning survey Dataset</h1>
+<h1>Job Recommendation System using Kaggle Data Science and Machine Learning survey Dataset</h1>
 
 <h2>Project Information</h2>
 
-This was a team project for my Fundamentals of Data Analytics class at the National University of Singapore. We were tasked to develop a web application (using Streamlit) using combined datasets from <i>Kaggle's Annual MAchine Learning and Data Science Survey</i> for 2022-2022. 
+This was a team project for my Fundamentals of Data Analytics class at the National University of Singapore. We were tasked to develop a web application (using Streamlit) using combined datasets from <i>Kaggle's Annual Machine Learning and Data Science Survey</i> for 2022-2022. 
 
 The web application comprises of two main milestones:
 1) Exploratory Data Analysis: Use Streamlit's multipage app feature to offer 2 visualisation functionalities, i.e. trend over time and statistical tendencies, to allow users to explore the data to derive insights.  
